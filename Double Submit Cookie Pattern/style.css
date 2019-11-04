@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+}
+body{
+
+    background: #4d4dff;
+    
+}
+
+form {
+    padding:10%;
+	margin: 15px 450px;
+    
+
+
+}
+input[type=text], input[type=password] {
+    width: 80%;
+    padding: 15px 20px;
+    margin: 15px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	border-radius: 20px;
+}
+h1{
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(rgb(28, 87, 91));
+    line-height: 150%;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 2px 5px 1px rgba(0,0,0,0.2);
+    color: black;
+}
+.logbutton {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+	border-radius: 20px;
+  }
+  
+  .logbutton:hover {
+    opacity: 0.7;
+  }
+  label{
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    font-family: Arial;
+  }
+  #idea{
+    width: 80%;
+    height: 100px;
+    padding: 20px;
+    background-color: ash;
+    font-weight : bold;
+    color: black;
+  }
+  .submitid{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 50px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+	border-radius: 20px;
+  }
